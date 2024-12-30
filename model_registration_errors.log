@@ -1,0 +1,2 @@
+2024-12-30 22:35:24,621 - model_registration - ERROR - Error during model registration: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+2024-12-30 22:35:24,621 - model_registration - ERROR - Failed to complete the model registration process: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
