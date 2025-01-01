@@ -8,30 +8,30 @@ Business Problem:
 1. Need to Attract More Influencers:
 Objective: Increase our influencer clientele to enhance our service offerings to
 brands and stay competitive.
-○
+
 
 Challenge: Limited marketing budget restricts our ability to reach and engage
 potential influencer clients through conventional means.
-○
+
 
 2. Identifying the Influencer Pain Point:
 Understanding Influencer Challenges: To effectively attract influencers, we need to
 understand and address the key challenges they face.
-○
+
 
 Research Insight: Influencers, especially those with large followings, struggle with
 managing and interpreting the vast amount of feedback they receive via comments
 on their content.
-○
+
 
 3. Big Influencers Face Issues with Comment Analysis:
 Volume of Comments: High-profile influencers receive thousands of comments on
 their videos, making manual analysis impractical.
-○
+
 
 Time Constraints: Influencers often lack the time to sift through comments to extract
 meaningful insights.
-○
+
 
 Impact on Content Strategy: Without efficient comment analysis, influencers miss
 opportunities to understand audience sentiment, address concerns, and tailor their
@@ -54,22 +54,22 @@ classifying each as positive, neutral, or negative.
 Displays the overall sentiment distribution with intuitive graphs or charts (e.g., pie
 charts or bar graphs showing percentages like 70% positive, 20% neutral, 10%
 negative).
-○
+
 
 • Detailed Sentiment Insights:
 Allows users to drill down into each sentiment category to read specific comments
 classified under it.
-○
+
 • Trend Tracking:
 Monitors how sentiment changes over time, helping influencers identify how
 different content affects audience perception.
-○
+
 
 2. Additional Comment Analysis Features
 • Word Cloud Visualization:
 Generates a word cloud showcasing the most frequently used words and phrases in
 the comments.
-○
+
 Calculates and displays the average length of comments, indicating the depth of
 audience engagement.
 
@@ -92,47 +92,46 @@ WorkFlow
 Git
 ○ Purpose: Distributed version control system for tracking changes in source code.
 ○ Usage: Manage codebase, track changes, and collaborate with team members.
-•
+
 
 • GitHub
 ○ Purpose: Hosting service for Git repositories with collaboration features.
 Usage: Store repositories, manage issues, pull requests, and facilitate team
 collaboration.
-○
+
 
 2. Data Management and Versioning
 • DVC (Data Version Control)
 Purpose: Version control system for tracking large datasets and machine learning
 models.
-○
+
 Usage: Version datasets and machine learning pipelines, enabling reproducibility and
 collaboration.
-○
+
 
 AWS S3 (Simple Storage Service)
 ○ Purpose: Scalable cloud storage service.
 ○ Usage: Store datasets, pre-processed data, and model artifacts tracked by DVC.
-•
 
 3. Machine Learning and Experiment Tracking
 • Python
 ○ Purpose: Programming language for backend development and machine learning.
 Usage: Implement data processing scripts, machine learning models, and backend
 services.
-○
+
 
 • Machine Learning Libraries:
 scikit-learn
 ▪ Purpose: Library for classical machine learning algorithms.
 ▪ Usage: Implement baseline models and preprocessing techniques.
-○
+
 
 • NLP Libraries:
 NLTK (Natural Language Toolkit)
 Purpose: Platform for building Python programs to work with human language
 data.
-▪
-○
+
+
 Technologies
 26 September 2024 16:31
 
@@ -144,21 +143,20 @@ data.
 ▪ Purpose: Industrial-strength NLP library.
 Usage: Advanced NLP tasks like named entity recognition, part-of-speech
 tagging.
-▪
 
 • Mlflow
 Purpose: Platform for managing the ML lifecycle, including experimentation,
 reproducibility, deployment, and a central model registry.
-○
+
 Usage: Track experiments, log parameters, metrics, and artifacts; manage model
 versions.
-○
+
 
 • MLflow Model Registry
 ○ Purpose: Component of MLflow for managing the full lifecycle of ML models.
 Usage: Register models, manage model stages (e.g., staging, production), and
 collaborate on model development.
-○
+
 
 • Optuna
 ○ For Hyperparameter tuning
@@ -168,7 +166,7 @@ collaborate on model development.
 Usage:
 ▪ Automate testing, building, and deployment pipelines.
 ▪ Trigger workflows on events like code commits or pull requests.
-○
+
 
 5. Cloud Services and Infrastructure
 • AWS (Amazon Web Services)
@@ -178,33 +176,32 @@ Usage:
 ○ AWS Auto Scaling Groups
 Purpose: Automatically adjust the number of EC2 instances to handle load
 changes.
-•
+
 Usage:
 Ensure that the application scales out during demand spikes to maintain
-•
+
 
 Session 45 - Project Class 1 Page 7
 
 Ensure that the application scales out during demand spikes to maintain
 performance.
-○
+
 ○ Scale in during low demand periods to reduce costs.
 Maintain application availability by automatically adding or replacing
 instances as needed.
-○
+
 
 ○ AWS CodeDeploy
 Purpose: Deployment service that automates application deployments to
 various compute services like EC2, Lambda, and on-premises servers.
-•
+
 Usage:
 Automate the deployment process of backend services and machine
 learning models to AWS EC2 instances or AWS Lambda.
 ○
 Integrate with GitHub Actions to create a seamless CI/CD pipeline that
 deploys code changes automatically upon successful testing.
-○
-•
+
 
 ○ AWS CloudWatch
 ▪ Purpose: Monitoring and observability service.
@@ -220,7 +217,7 @@ deploys code changes automatically upon successful testing.
 • JavaScript
 Purpose: Frontend development, especially for web applications and browser
 extensions.
-○
+
 ○ Usage: Develop the Chrome extension's user interface and functionality.
 • HTML and CSS
 ○ Purpose: Markup and styling languages for web content.
@@ -241,7 +238,7 @@ Session 45 - Project Class 1 Page 8
 ○ Purpose: APIs provided by Chrome for building extensions.
 Usage: Interact with browser features, modify web page content, manage extension
 behaviour.
-○
+
 
 • Browser Developer Tools
 ○ Purpose: Built-in tools for debugging and testing web applications.
@@ -262,7 +259,7 @@ behaviour.
 Jest
 ▪ Purpose: JavaScript testing framework.
 ▪ Usage: Write and run tests for JavaScript code in the Chrome extension.
-○
+
 
 9. Project Management and Communication
 • Project Management Tools:
@@ -287,13 +284,13 @@ Session 45 - Project Class 1 Page 9
 ○ Purpose: Containerization platform.
 Usage: Package applications and dependencies into containers for consistent
 deployment.
-○
+
 
 11. Security and Compliance
 SSL/TLS Certificates
 ○ Purpose: Secure communications over a computer network.
 ○ Usage: Encrypt data between users and backend services.
-•
+
 
 12. Monitoring and Logging
 • Logging Tools:
@@ -325,7 +322,7 @@ Session 45 - Project Class 1 Page 10
 Postman
 ▪ Purpose: API development environment.
 ▪ Usage: Design, test, and document APIs.
-○
+
 
 14. Code Quality and Documentation
 • Code Linters and Formatters:
@@ -353,7 +350,6 @@ Session 45 - Project Class 1 Page 11
 ○ D3.js
 Purpose: JavaScript library for producing dynamic, interactive data
 visualizations.
-▪
 ▪ Usage: Create word clouds and other visual elements in the Chrome extension.
 
 • Data Serialization Formats:
