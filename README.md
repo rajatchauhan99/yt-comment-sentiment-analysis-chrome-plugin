@@ -303,8 +303,6 @@ SSL/TLS Certificates
 ▪ Purpose: Open-source monitoring system.
 ▪ Usage: Collect and store metrics, generate alerts.
 
-Session 45 - Project Class 1 Page 10
-
 ○ Grafana
 ▪ Purpose: Visualization and analytics software.
 ▪ Usage: Create dashboards to visualize metrics.
@@ -340,7 +338,6 @@ Postman
 ○ Matplotlib
 ▪ Purpose: Plotting library for Python.
 
-Session 45 - Project Class 1 Page 11
 
 ▪ Purpose: Plotting library for Python.
 ▪ Usage: Create static, animated, and interactive visualizations.
