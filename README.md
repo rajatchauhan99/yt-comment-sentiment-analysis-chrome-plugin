@@ -133,11 +133,8 @@ data.
 
 
 Technologies
-26 September 2024 16:31
 
-Session 45 - Project Class 1 Page 6
-
-data.
+Data.
 ▪ Usage: Tokenization, stemming, and other basic NLP tasks.
 ○ spaCy
 ▪ Purpose: Industrial-strength NLP library.
@@ -181,8 +178,6 @@ Usage:
 Ensure that the application scales out during demand spikes to maintain
 
 
-Session 45 - Project Class 1 Page 7
-
 Ensure that the application scales out during demand spikes to maintain
 performance.
 
@@ -225,8 +220,6 @@ extensions.
 • Data Processing Libraries:
 ○ Pandas
 
-Session 45 - Project Class 1 Page 8
-
 ▪ Purpose: Data manipulation and analysis.
 ▪ Usage: Handle tabular data, preprocess datasets.
 ○ NumPy
@@ -263,7 +256,6 @@ Jest
 
 9. Project Management and Communication
 • Project Management Tools:
-Session 45 - Project Class 1 Page 9
 
 9. Project Management and Communication
 • Project Management Tools:
